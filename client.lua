@@ -4,7 +4,7 @@ RegisterCommand('extra', function(source, args)
     local args1 = args[1]
     local args2 = args[2]
 
-    SetVehicleAutoRepairDisabled(Veh, true)
+    --SetVehicleAutoRepairDisabled(Veh, true)
 
     if ((args1=="all")and(args2=="true")) then
         for i=0,30 do
